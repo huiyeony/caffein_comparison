@@ -1,0 +1,7 @@
+.button {
+  background-color: oklch(90.5% 0.182 98.111);
+  color: oklch(28.6% 0.066 53.813);
+  padding: 10px 15px;
+  font-size: small;
+  border-radius: 10px;
+}

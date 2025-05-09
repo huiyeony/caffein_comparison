@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import style from "@/styles/header.module.css";
 import Script from "next/script";
+import KakaoShareButton from "./kakaoShareButton";
 declare global {
   interface Window {
     KaKao: string;
@@ -23,7 +24,7 @@ export const Header = () => {
             </p>
           </div>
         </div>
-        <button className={style.button}> ↗︎ 공유하기 </button>
+        <KakaoShareButton />
       </div>
     </header>
   );
